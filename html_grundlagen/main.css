@@ -192,9 +192,6 @@ footer {
     flex-direction: column;
 }
 
-.footer__appendix {
-}
-
 .appendix__row {
     display: flex;
     flex-direction: row;
