@@ -7,13 +7,13 @@
 
 .collage {
     position: relative;
-    min-height: 400px;
+    min-height: 52vw;
 }
 
 .collage div {
     position: absolute;
     width: 50%;
-    min-height: 200px;
+    min-height: 26vw;
     background-image: url("codersbay.png");
     border: 5px solid #0000ff;
     background-size: cover;
