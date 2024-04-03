@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="codersbay-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="nullstyle.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="registration.css">
+    <title>Sign Up</title>
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <div class="header__container container">
+            <nav class="header__navbar">
+                <h1 id="logo"><a href="coders-bay.html"><img src="codersbay-logo.svg"></a></h1>
+                <ul class="header__menu">
+                    <li class="header__menu-item"><a href="#">Link</a></li>
+                    <li class="header__menu-item"><a href="#">Link</a></li>
+                    <li class="header__menu-item"><a href="#">Link</a></li>
+                    <li class="header__menu-item"><a href="index.html">About</a></li>
+                </ul>
+                <div class="header__navbar-burger">
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main__content">
+            <section class="main__register">
+                <div class="register__container container">
+                    <h2 class="register__title">Registration:</h2>
+                    <div class="register__form">
+                        <form action="coders-bay.html">
+                            <div class="register__form-item">
+                                <label for="fname">First Name:</label>
+                                <input type="text" id="fname" name="fname" placeholder="Enter First Name" required>
+                            </div>
+                            <div class="register__form-item">
+                                <label for="lname">Last Name:</label>
+                                <input type="text" id="lname" name="lname" placeholder="Enter Last Name" required>
+                            </div>
+                            <div class="register__form-item">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" placeholder="example@email.com" required>
+                            </div>
+                            <div class="register__form-item">
+                                <label for="pass">Password:</label>
+                                <input type="password" id="pass" name="pass" minlength="8" placeholder="Enter Password"
+                                       required>
+                            </div>
+                            <div class="register__form-item" id="radio">
+                                <input type="radio" id="male" name="gender" required>
+                                <label for="male">Male</label>
+                                <input type="radio" id="female" name="gender" required>
+                                <label for="female">Female</label>
+                            </div>
+                            <div class="register__form-item"><label for="phone">Phone Number:</label>
+                                <input type="tel" id="phone" name="phone" placeholder="123-45-67-89"
+                                       pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required></div>
+                            <div class="register__form-item"><label for="birthday">Birthday:</label>
+                                <input type="date" id="birthday" name="birthday" required></div>
+                            <div class="register__form-item"><label for="education">Education: </label>
+                                <select name="education" id="education">
+                                    <option value="school">School</option>
+                                    <option value="university">University</option>
+                                </select></div>
+                            <div class="register__form-item" id="submit">
+                                <input type="submit" value="Sign Up">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer__column">
+            <div class="footer__content container">
+                <div class="content__list">
+                    <div class="content__list-main">
+                        <div class="content__main-item" id="footer__contact">
+                            <section class="content__contact footer__list">
+                                <h3 class="contact__title">Contact</h3>
+                                <p class="contact__address">Gasometer C / 2nd floor
+                                    Guglgasse 12
+                                    1110 Vienna</p>
+                                <p class="contact__email">hello@codersbay.wien</p>
+                            </section>
+                        </div>
+                        <div class="content__main-item" id="footer__menu">
+                            <section class="content__links">
+                                <ul class="links__menu footer__list">
+                                    <li class="links__menu-item"><a href="#">Home page</a></li>
+                                    <li class="links__menu-item"><a href="#">Full stack training</a></li>
+                                    <li class="links__menu-item"><a href="#">About Us</a></li>
+                                    <li class="links__menu-item"><a href="#">Private courses</a></li>
+                                    <li class="links__menu-item"><a href="#">AMS-funded courses</a></li>
+                                    <li class="links__menu-item"><a href="#">Funding</a></li>
+                                    <li class="links__menu-item"><a href="#">Talent pool</a></li>
+                                    <li class="links__menu-item"><a href="#">Career</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="content__main-item" id="footer__documentation">
+                            <section class="content__documentations">
+                                <ul class="documentations__list footer__list">
+                                    <li class="documentations__list-item"><a href="#">Imprint</a></li>
+                                    <li class="documentations__list-item"><a href="#">Data protection</a></li>
+                                    <li class="documentations__list-item"><a href="#">Accessibility Statement</a></li>
+                                    <li class="documentations__list-item"><a href="#">Terms and Conditions</a></li>
+                                </ul>
+                            </section>
+                        </div>
+                        <div class="content__main-item" id="footer__medias">
+                            <section class="content__medias footer__list">
+                                <h3 class="medias__title">Social media</h3>
+                                <ul class="medias__row">
+                                    <li class="medias__row-item"><a href="https://www.facebook.com/codersbay.at/"><img
+                                            src="facebook.svg" alt="Facebook"></a></li>
+                                    <li class="medias__row-item"><a href="https://www.instagram.com/coders.bay/"><img
+                                            src="instagram.svg" alt="Instagram"></a></li>
+                                    <li class="medias__row-item"><a
+                                            href="https://at.linkedin.com/company/coders-bay"><img
+                                            src="linkedin.svg" alt="LinkedIn"></a></li>
+                                </ul>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__line"><span></span></div>
+            <div class="footer__appendix container">
+                <div class="appendix__row">
+                    <div class="appendix__copyright">© CODERS.BAY Linz 2024</div>
+                    <div class="appendix__origin">Designed & Developed <br> Alex Dvalishvili</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
